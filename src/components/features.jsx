@@ -1,22 +1,40 @@
+import { Brain, BrainCircuit, BrainCog, Bot, Factory, LaptopMinimalCheck, Handshake, HandCoins } from "lucide-react";
 import React from "react";
 
 export const Features = (props) => {
+  // Array of available icons
+  const icons = [
+    Brain,
+    Handshake,
+    HandCoins,
+    Bot,
+    BrainCog,
+    LaptopMinimalCheck
+  ];
+
   return (
     <div id="features" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Features</h2>
+          <h2>ویژگی های ما</h2>
         </div>
         <div className="row">
           {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-              ))
+            ? props.data.map((d, i) => {
+                // Select an icon based on the index (looping through the icons)
+                const Icon = icons[i % icons.length];  // Use modulo to loop over icons
+
+                return (
+                  <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                    {/* Display selected icon above the feature */}
+                    <div className="feature-icon">
+                      <Icon size={48} />
+                    </div>
+                    <h3>{d.title}</h3>
+                    <p>{d.text}</p>
+                  </div>
+                );
+              })
             : "Loading..."}
         </div>
       </div>

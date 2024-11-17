@@ -1,21 +1,20 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "“نوآوری با قدرت هوش مصنوعی”",
+    "paragraph": "مثلث فراز سپهر ارتباطات پردیسان خوارزم ؛ آینده‌ای هوشمندتر را امروز بسازید."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "“مثلث فراز سپهر  یک شرکت پیشرو در زمینه فناوری‌های هوش مصنوعی است که با هدف ایجاد ارزش پایدار، خدمات و محصولات متنوعی را برای صنایع مختلف ارائه می‌دهد. ما با ترکیب خلاقیت، تخصص و فناوری، به شما کمک می‌کنیم تا بهره‌وری را افزایش دهید، هزینه‌ها را کاهش دهید و تصمیم‌گیری‌ها را هوشمندانه‌تر کنید.”",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "تیم متخصص و مجرب",
+      "فناوری‌های پیشرفته و به‌روز",
+      "تمرکز بر ارائه راه‌حل‌های سفارشی"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "تعهد به موفقیت مشتریان",
+      "سابقه اجرایی ارگان های مختلف",
+      "دامنه وسیع خدمات",
+      "خدمات اجرایی دقیق"
     ]
   },
   "Gallery": [
@@ -67,34 +66,28 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "تحلیل داده و پیش‌بینی",
+      "text": "تحلیل پیشرفته داده‌ها برای تصمیم‌گیری دقیق و قابل‌اعتماد."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "هوش مصنوعی صنعتی",
+      "text": "اتوماسیون و بهینه‌سازی فرآیندهای تولید و توزیع."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "مدل‌های یادگیری ماشین",
+      "text": "توسعه مدل‌های سفارشی برای حل چالش‌های خاص."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "پردازش زبان طبیعی (NLP)",
+      "text": "ارتباط هوشمند با مشتریان از طریق فناوری‌های پیشرفته زبانی."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "واردات و صادرات قطعات تکنولوژی",
+      "text": "تأمین و توزیع قطعات تکنولوژی باکیفیت از طریق واردات و صادرات برای حمایت از رشد و توسعه صنعتی."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "صنایع مختلف تحت پوشش",
+      "text": "اولین شرکت با پوشش صنایع مختلف در یکپارچه سازی با هوش مصنوعی."
     }
   ],
   "Testimonials": [
@@ -152,33 +145,27 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": " تهران سعادت آباد، طاهرخانی، پلاک 20، واحد 5",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "info@company.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "مشاوره و پشتیبانی",
+        "text": "به شما کمک می‌کنیم تا با مشاوره‌های تخصصی، بهترین تصمیمات را در مسیر کسب و کار خود بگیرید."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "تبلیغات و اطلاع‌رسانی",
+        "text": "ما در زمینه تبلیغات و اطلاع‌رسانی، استراتژی‌های موثر و نوآورانه‌ای را برای شما طراحی و اجرا می‌کنیم."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "تیم حرفه‌ای",
+        "text": "تیم ما از متخصصین با تجربه تشکیل شده است که هرکدام در زمینه‌های مختلف مهارت دارند و آماده‌اند تا به شما کمک کنند."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "نوآوری و خلاقیت",
+        "text": " همیشه به دنبال راه‌حل‌های جدید و نوآورانه برای چالش‌های شما هستیم تا تجربه‌ای منحصر به فرد ایجاد کنیم."
     }
-  ]
+]
+
 }

@@ -1,9 +1,10 @@
+import { Triangle } from "lucide-react";
 import React from "react";
 
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+      <div className="container" style={{display: "flex", justifyContent : "space-between", width : "100%", alignItems : "center"}}>
         <div className="navbar-header">
           <button
             type="button"
@@ -17,49 +18,31 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+          <a className="navbar-brand page-scroll" href="#page-top" style={{ transform : "translateY(0px)"}} >
+          مثلث فراز سپهر ارتباطات 
+
           </a>{" "}
         </div>
 
+          <Triangle style={{ marginInline:2}} className="rotate" strokeWidth={4}></Triangle>
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li>
-            <li>
               <a href="#about" className="page-scroll">
-                About
+                درباره ما
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
+                خدمات
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                ارتباط با ما
               </a>
             </li>
           </ul>
