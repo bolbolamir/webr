@@ -1,11 +1,10 @@
-import { Triangle } from "lucide-react";
+import { Menu, Triangle } from "lucide-react";
 import React from "react";
 
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container" style={{display: "flex", justifyContent : "space-between", width : "100%", alignItems : "center"}}>
-        <div className="navbar-header">
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -14,10 +13,9 @@ export const Navigation = (props) => {
           >
             {" "}
             <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <Menu></Menu>
           </button>
+        <div className="navbar-header">
           <a className="navbar-brand page-scroll" href="#page-top" style={{ transform : "translateY(0px)"}} >
           مثلث فراز سپهر ارتباطات 
 

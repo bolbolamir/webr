@@ -13,7 +13,7 @@ export const Services = (props) => {
   ];
 
   return (
-    <div id="services" className="text-center">
+    <div id="services" className="text-center "  data-aos="fade-up" data-aos-once="false"  data-aos-duration="1000" data-aos-delay="50">
       <div className="container">
         <div className="section-title">
           <h2>خدمات ما</h2>

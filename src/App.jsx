@@ -4,12 +4,12 @@ import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import AOS from "aos"; // Import AOS
+import "aos/dist/aos.css"; // Import AOS CSS
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -19,8 +19,10 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+
   useEffect(() => {
     setLandingPageData(JsonData);
+    AOS.init(); // Initialize AOS
   }, []);
 
   return (
@@ -30,6 +32,9 @@ const App = () => {
       <About data={landingPageData.About} />
       <Features data={landingPageData.Features} />
       <Services data={landingPageData.Services} />
+
+
+      
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
@@ -37,5 +42,3 @@ const App = () => {
 };
 
 export default App;
-{/* <Gallery data={landingPageData.Gallery} /> */}
-{/* <Testimonials data={landingPageData.Testimonials} /> */}
